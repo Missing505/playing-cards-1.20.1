@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "playing-cards",
+	"version": "${version}",
+	"name": "Playing Cards",
+	"description": "This mod adds playing cards to allow you to play card games.",
+	"authors": [
+		"Missing404"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/playing-cards/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.missing.playingcards.PlayingCards"
+		],
+		"client": [
+			"net.missing.playingcards.PlayingCardsClient"
+		],
+		"fabric-datagen": [
+			"net.missing.playingcards.PlayingCardsDataGenerator"
+		]
+	},
+	"mixins": [
+		"playing-cards.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
