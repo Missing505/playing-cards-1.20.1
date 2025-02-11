@@ -2,6 +2,8 @@ package net.missing.playingcards;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.missing.playingcards.item.ModItemGroups;
+import net.missing.playingcards.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -20,5 +22,8 @@ public class PlayingCards implements ModInitializer {
 		// Proceed with mild caution.
 
 		LOGGER.info("Hello Fabric world!");
+
+		ModItemGroups.registerItemGroups();
+		ModItems.registerModItems();
 	}
 }
