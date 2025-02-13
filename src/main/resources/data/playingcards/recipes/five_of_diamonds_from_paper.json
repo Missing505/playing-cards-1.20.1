@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:paper"
+    }
+  ],
+  "result": {
+    "item": "playingcards:five_of_diamonds",
+    "count": 1
+  }
+}
