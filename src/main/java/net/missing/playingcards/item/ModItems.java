@@ -8,6 +8,7 @@ import net.minecraft.util.Identifier;
 import net.missing.playingcards.PlayingCards;
 
 public class ModItems {
+    public static final Item JOKER = registerItem("joker", new Item(new FabricItemSettings()));
     public static final Item ACE_OF_SPADES = registerItem("ace_of_spades", new Item(new FabricItemSettings()));
     public static final Item TWO_OF_SPADES = registerItem("two_of_spades", new Item(new FabricItemSettings()));
     public static final Item THREE_OF_SPADES = registerItem("three_of_spades", new Item(new FabricItemSettings()));

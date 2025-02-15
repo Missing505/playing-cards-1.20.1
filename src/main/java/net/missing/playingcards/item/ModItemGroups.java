@@ -14,6 +14,7 @@ public class ModItemGroups {
             new Identifier(PlayingCards.MOD_ID, "playingcards"),
             FabricItemGroup.builder().displayName(Text.translatable("itemgroup.playingcards"))
                     .icon(() -> new ItemStack(ModItems.ACE_OF_SPADES)).entries(((displayContext, entries) -> {
+                        entries.add(ModItems.JOKER);
                         entries.add(ModItems.ACE_OF_SPADES);
                         entries.add(ModItems.TWO_OF_SPADES);
                         entries.add(ModItems.THREE_OF_SPADES);

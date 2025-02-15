@@ -5,11 +5,14 @@
       "item": "minecraft:paper"
     },
     {
-      "item": "minecraft:red_dye"
+      "item": "minecraft:spruce_planks"
+    },
+    {
+      "item": "minecraft:black_dye"
     }
   ],
   "result": {
-    "item": "playingcards:joker",
+    "item": "playingcards:ace_of_clubs",
     "count": 1
   }
 }
